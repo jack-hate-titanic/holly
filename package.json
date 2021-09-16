@@ -1,0 +1,34 @@
+{
+  "name": "holly",
+  "version": "1.0.0",
+  "description": "搭建的脚手架工具----冬青，用于react中后台",
+  "main": "index.js",
+  "bin": {
+    "holly": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y-wson/holly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Y-wson/holly/issues"
+  },
+  "homepage": "https://github.com/Y-wson/holly#readme",
+  "devDependencies": {
+    "axios": "^0.21.4",
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.5",
+    "ora": "^4.1.1",
+    "util": "^0.12.4"
+  }
+}
